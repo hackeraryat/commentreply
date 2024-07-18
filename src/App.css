@@ -1,0 +1,61 @@
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+ margin-top: 30px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: blue;
+}
+
+.comment {
+  background: #12864d;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.reply-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input, button {
+    width: 90%;
+    max-width: none;
+  }
+}
